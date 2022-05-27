@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # python-activity-sets
 ---
 
@@ -13,3 +14,6 @@ Follow through Py4E tutorials and submit your solutions in the files listed.
 Source: [University of Scranton, HSPC 2007](https://www.cs.scranton.edu/~mccloske/hs_prog_contest/contest_problems/probs_07_head.pdf)
 
 Solve the problems from the PDF listed in the files.
+=======
+# test
+>>>>>>> origin
