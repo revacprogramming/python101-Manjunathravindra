@@ -1,18 +1,17 @@
-
-def add(a, b):
-    pass  # ...
-
-
-def output(a, b, sum):
-    pass  # ...
+def add(a,b):
+    return  a+b
 
 
+def enter():
+    a = int(input("enter the 1st Number?"))
+    b = int(input("enter the 2nd number?"))
+    return a,b
+def output(c):
+    print("sum of a and b is:",c)
 def main():
-    a, b = input_two_numbers()
-    sum = add(a, b)
+    a,b=enter()
+    c=add(a,b)
+    output(c)
 
-    output(a, b, sum)
-
-
-if __name__ == '__main__':
+if __name__=="__main__":
     main()

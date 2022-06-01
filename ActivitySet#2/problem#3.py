@@ -1,12 +1,15 @@
-
-
 def get_cs():
-    """get string input"""
+    return input()
 
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    lis=[]
+    pos1=cs.find("=")
+    first=cs[0:pos1]
+    second=cs[pos1+1]
+    final=(first,second)
+    lis.append(final)
+    cs[0:second]
 
 def main():
     cs = get_cs()

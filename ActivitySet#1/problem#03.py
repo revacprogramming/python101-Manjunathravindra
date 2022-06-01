@@ -1,19 +1,24 @@
-largest=None
-x=0
-while True:
-    num=input("enter the number")
-    if num=="done":
-        break
-    if type(num)==float:
-        y=num
-    else:
-        print("invalid input")    
-    if x<y:
-        largest=y
-    else:    
-        x=num
-print(largest)        
+'''
+1.take a input form user.
+2.
+3.
+'''
 
+def userinput():
+    x=int(input("enter the hour:"))
+    y=float(input("enter the rate per hour:"))
+    return x,y
+def grosspay( hours,rate_per_hour):
+    gpay=hours*rate_per_hour
+    return gpay
+def prin(gpay):
+     print("gross pay is :",gpay)
+def main():
+    x,y=userinput()
+    gpay=grosspay(x,y)
+    prin(gpay)
+if __name__=="__main__":
+    main()
 
 
 
